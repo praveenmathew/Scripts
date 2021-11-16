@@ -1,5 +1,5 @@
 Python Basic I/O
-'''
+```
 print(30)
 print("My age is 30")
 
@@ -12,5 +12,4 @@ print (x)
 
 name = input("What is your name?")
 print(name)
-
-'''
+```
