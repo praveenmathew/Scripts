@@ -24,3 +24,32 @@ print(title + "  (" + str(release_year) + ")," + "  directed by " + director)
 #or
 print(f"{title} ({release_year}), directed by {director}")
 ```
+
+
+List [] and Tuples () 
+
+```
+movies = [
+         (
+         "sky", 
+         "Nolan",
+         2030,
+         "$100"
+         ),
+         (
+          "Batman",
+          "Jogn",
+          2024,
+          "$200"
+          )
+         ]
+
+second = (input("title: "), input("director: "), input("year: "), input("budget: "))
+
+print(movies)
+
+movies.append(second)
+print(movies)
+movies.pop(0)
+print(movies)
+```
