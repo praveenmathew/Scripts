@@ -1,3 +1,8 @@
+For easy reference:- 
+```
+https://www.teclado.com/30-days-of-python/python-30-day-0-getting-set-up
+```
+
 Python Basic I/O
 ```
 print(30)
