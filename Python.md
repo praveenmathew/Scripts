@@ -58,3 +58,15 @@ print(movies)
 movies.pop(0)
 print(movies)
 ```
+
+
+Supplying elements from a list/tuple to a print(). It differs for string and int elements. 
+```
+numbers = [1,2,3,4,5]
+print (numbers)
+new_number = []
+for i in numbers:
+    new_number.append(str(i))
+    
+print (f"The numbers are: {','.join(new_number)}")
+```
