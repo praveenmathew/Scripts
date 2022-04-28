@@ -16,6 +16,7 @@ for item in query:
         api_u = "https://www.virustotal.com/api/v3/ip_addresses/"
         api_url = api_u + item
     else:
+        item = item.strip("https://") #strips leading and trailing characters including / to retain pure URL
         api_ip = "https://www.virustotal.com/api/v3/domains/"
         api_url = api_ip + item
     header = {
